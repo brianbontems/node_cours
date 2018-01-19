@@ -22,6 +22,7 @@ Initialiser le serveur
 //Configuer les routes
 
     app.use('/', frontRoute);
+    app.use('/api', apiRoute);
 
 
 //Configuer les routes
