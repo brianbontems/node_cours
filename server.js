@@ -6,6 +6,8 @@ Importer les dépendances
     const path = require('path');
     const ejs = require('ejs');
     const frontRoute = require('./routes/front');
+    const apiRoute = require('./routes/api');
+
 
 /*
 Initialiser le serveur
